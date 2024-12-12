@@ -5,6 +5,7 @@ import Router from "./Routing/Router";
 import "./App.css";
 import productsAPI from "./api/productsAPI";
 import ProductsContextProvider from "./Contexts/ProductsContexts";
+import PageContentWrapper from "./Components/PageContentWrapper";
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
       <BrowserRouter>
         <PageWrapper>
           <SideNavigation />
-          <Router />
+          <PageContentWrapper>
+            <Router />
+          </PageContentWrapper>
         </PageWrapper>
       </BrowserRouter>
     </ProductsContextProvider>
