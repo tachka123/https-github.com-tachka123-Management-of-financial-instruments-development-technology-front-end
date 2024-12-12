@@ -1,11 +1,14 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter } from "react-router";
+import PageWrapper from "./Components/PageWrapper";
 
 const App = () => {
   return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
-    </div>
+    <PageWrapper>
+      <BrowserRouter>
+
+      </BrowserRouter>
+    </PageWrapper>
   );
 };
 
