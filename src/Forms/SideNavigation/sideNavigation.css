@@ -1,6 +1,6 @@
 .sideBarNavigation {
     height: 100%;
-    flex-basis: 20%;
+    flex-basis: 10%;
     display: flex;
     flex-direction: column;
     background-color: white;
