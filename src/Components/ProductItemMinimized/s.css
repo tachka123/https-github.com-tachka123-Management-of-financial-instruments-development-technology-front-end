@@ -1,0 +1,12 @@
+.productItemMinimized {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: center;
+    justify-content: center;
+    background-color: #101725;
+    cursor: pointer;
+    border-radius: 8px;
+}

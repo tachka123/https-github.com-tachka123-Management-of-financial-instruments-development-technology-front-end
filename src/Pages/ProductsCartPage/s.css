@@ -1,0 +1,47 @@
+.cartPageWrapper {
+    background-color: #101725;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 100%;
+    padding: 40px;
+}
+
+.cartListWrapper {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 400px;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    row-gap: 24px;
+    background-color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.columnInput {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: fit-content;
+}
+
+.inputsWrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-bottom: 20px;
+}
+
+.cardElementWrapper {
+    width: 100%;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

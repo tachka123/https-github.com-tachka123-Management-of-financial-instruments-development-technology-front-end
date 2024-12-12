@@ -1,0 +1,12 @@
+.productPreviewWrapper {
+    background-color: #101725;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    align-self: center;
+    height: 100%;
+    border-radius: 8px;
+}
