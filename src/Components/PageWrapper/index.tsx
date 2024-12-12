@@ -1,10 +1,10 @@
-import React from "react";
+import React, { PropsWithChildren } from "react";
 import "./s.css";
 
-const PageWrapper = () => {
+const PageWrapper = ({ children }: PropsWithChildren) => {
   return (
     <div className={"pageWrapper"}>
-
+      {children}
     </div>
   );
 };
