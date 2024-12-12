@@ -1,9 +1,12 @@
 import api from "../api.ts";
-import { ProductsList } from "./types";
+import { ProductItem, ProductsList } from "./types";
 
 class ProductsAPI {
   public getProducts() {
     return api.get<ProductsList>("/products");
+  }
+  public getProductById(id: number) {
+    return api.get<ProductItem>(`/products/${id}`);
   }
 }
 
