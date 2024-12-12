@@ -7,6 +7,7 @@ export interface ProductItem {
   price: number,
   currency: CurrencyTypes,
   description: string,
+  id: number
 }
 
 export type ProductsList = ProductItem[]
